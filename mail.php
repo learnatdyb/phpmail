@@ -6,7 +6,7 @@ $message= $_POST['message'];
 $to = "smahendrancs@gmail.com";
 $subject = "Mail From website";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
-$headers = "From: noreply@learnatdyb.github.io/phpmail/";
+$headers = "From: smahendrancs@gmail.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
